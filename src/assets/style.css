@@ -1,0 +1,98 @@
+body #app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+body #app .container {
+    width: 400px;
+    margin: 10px;
+    border: 1px solid #d0d1d5;
+    border-radius: 5px;
+    background-color:whitesmoke solid transparent;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.justify-content-end {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.align-items-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.green {
+    color: rgb(28, 173, 28);
+}
+
+body #app button.red {
+    background-color: #e2574c;
+    color: #e5ffff;
+}
+
+body #app button.red:hover {
+    background-color: #e98078;
+}
+
+body #app button.sm {
+    padding: 2px 5px;
+}
+
+body #app ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body #app ul li {
+    padding: 5px;
+    background-color:azure;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+body #app ul li:last-child {
+    margin-bottom: 0;
+}
+
+body #app ul li:hover {
+    background-color: #e5e7e9;
+}
+
+body #app hr {
+    background: -webkit-gradient(linear, left top, right top, from(#59bacc), to(#ffbc49));
+    background: linear-gradient(to right, #59bacc, #ffbc49);
+    height: 1px;
+    border: none;
+}
